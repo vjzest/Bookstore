@@ -66,7 +66,7 @@ function Freebook() {
         </p>
       </div>
       <div>
-        <Slider {...settings}>
+        <Slider {...settings} className="text-white">
           {book.map((item) => (
             <Cards key={item.id} item={item} />
           ))}

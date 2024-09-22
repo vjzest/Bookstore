@@ -59,7 +59,7 @@ function Navbar() {
 
   return (
     <div
-      className={`max-w-screen-2xl container mx-auto md:px-20 px-4 dark:bg-slate-800 dark:text-white fixed top-0 left-0 right-0 z-50 ${
+      className={`max-w-full container mx-auto md:px-20 px-4 dark:bg-slate-700 dark:text-white relative top-0 left-0 right-0 z-50 ${
         isNonSticky
           ? ""
           : sticky
