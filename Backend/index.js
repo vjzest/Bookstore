@@ -34,6 +34,7 @@ app.use("/user", userRoute);
 
 //deployment
 
+<<<<<<< HEAD
 // if (process.env.MODE_ENV === "production") {
 //   const dirPath = path.resolve();
 //   app.use(express.static("Frontend/dist"));
@@ -41,6 +42,9 @@ app.use("/user", userRoute);
 //     res.sendFile(path.resolve(dirPath, "Frontend", "dist", "index.html"));
 //   });
 // }
+=======
+
+>>>>>>> 998af80fbc3902296bfb8c27a2fefc3b02a4810a
 app.listen(PORT, () => {
   console.log(`Server is listening on port ${PORT}`);
 });
