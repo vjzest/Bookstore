@@ -25,13 +25,7 @@ function Course() {
             <span className="text-blue-600"> Here! :)</span>
           </h1>
           <p className="mt-12">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro,
-            assumenda? Repellendus, iste corrupti? Tempore laudantium
-            repellendus accusamus accusantium sed architecto odio, nisi expedita
-            quas quidem nesciunt debitis dolore non aspernatur praesentium
-            assumenda sint quibusdam, perspiciatis, explicabo sequi fugiat amet
-            animi eos aut. Nobis quisquam reiciendis sunt quis sed magnam
-            consequatur!
+            Thank you for visiting our bookstore! We believe that every book has the power to transform lives and ignite imaginations. As you explore our collection, we invite you to indulge in stories that inspire, educate, and entertain. Your journey into the world of literature starts here, and we're excited to share it with you!
           </p>
           <Link to="/">
             <button className="mt-6 bg-pink-500 text-white px-4 py-2 rounded-md hover:bg-pink-700 duration-300">
