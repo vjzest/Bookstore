@@ -19,10 +19,7 @@ const URI = process.env.MongoDBURI;
 
 // connect to mongoDB
 try {
-  mongoose.connect(URI, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  });
+  mongoose.connect(URI);
   console.log("Connected to mongoDB");
 } catch (error) {
   console.log("Error: ", error);
@@ -33,18 +30,6 @@ app.use("/book", bookRoute);
 app.use("/user", userRoute);
 
 //deployment
-
-<<<<<<< HEAD
-// if (process.env.MODE_ENV === "production") {
-//   const dirPath = path.resolve();
-//   app.use(express.static("Frontend/dist"));
-//   app.get("*", (req, res) => {
-//     res.sendFile(path.resolve(dirPath, "Frontend", "dist", "index.html"));
-//   });
-// }
-=======
-
->>>>>>> 998af80fbc3902296bfb8c27a2fefc3b02a4810a
 app.listen(PORT, () => {
   console.log(`Server is listening on port ${PORT}`);
 });
