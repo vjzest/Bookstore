@@ -11,6 +11,7 @@ function Freebook() {
     const getBook = async () => {
       try {
         const res = await axios.get("http://localhost:4001/book");
+        console.log(res, "printing the res");
         console.log(res.data);
         setBook(res.data);
       } catch (error) {
