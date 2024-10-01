@@ -61,9 +61,7 @@ function Freebook() {
       <div>
         <h1 className="font-semibold text-xl pb-2">Free Offered Courses</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium
-          veritatis alias pariatur ad dolor repudiandae eligendi corporis nulla
-          non suscipit, iure neque earum?
+         Enhance your reading experience with our complimentary courses! Our carefully designed classes cover a variety of topics, from literary analysis to creative writing. Whether you're a beginner or looking to deepen your knowledge, these courses are perfect for anyone eager to learn. Join us and enrich your journey through the world of books!
         </p>
       </div>
       <div>
